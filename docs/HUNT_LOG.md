@@ -1,27 +1,20 @@
 # Hunt log
 
-## CERTIFIED BUTTERFLY LIFT
+## Two certified butterflies
 
-```
-Bf = [[0,1,2,0],[1,0,0,2],[0,0,0,1],[0,0,1,0]] ∈ Sp(4)
-```
-- Coupling = 4 (genuine long↔short mix)
-- Source: Lanneau–Nguyen M2 (arXiv:1802.04879) lifted equally to both Prym sheets, projected to H1+ difference basis
-- Combined with exact TH, TV multi-twists from X(2,0) cylinder moduli
+| matrix | coupling | Sp(4) | source |
+|--------|----------|-------|--------|
+| **Bf1** | 4.0 | yes | LN M2 lift both Prym sheets → H1+ |
+| **Bf2** = TH·Bf1·TH^{-1} | 6.0 | yes | conjugate by exact multi-twist (independent) |
 
-## Hyperbolic words
-520 words with rho>1.5 and coupling>0.5. Best: HBHB, rho≈25.4, coupling=42.
+## Tight re-measure (20×60k, batch-means + multi-seed CI95)
 
-## Spectrum (discrete word average)
+| pool | ratio | CI95 | scaled to 6/7 |
+|------|-------|------|---------------|
+| Bf1 + TH/TV hyp words | **1.634** | [1.630, 1.638] | 0.532 / 0.325 |
+| Bf1 + Bf2 + TH/TV | **1.566** | [1.563, 1.569] | 0.523 / 0.334 |
+| target 2:1 | 2.000 | — | 0.571 / 0.286 |
 
-| quantity | value |
-|----------|-------|
-| ratio | **2.049** CI[2.041, 2.058] |
-| scaled to 6/7 | **0.576 / 0.281** |
-| target 4/7+2/7 | 0.571 / 0.286 |
-| distance | ~0.005 |
+Earlier ~2.05 was hyp-biased subsample; full pool under tight error is lower.
 
-## Still gated
-- Continuous Masur–Veech measure (not discrete words)
-- Interval / QR remainder bounds
-- `promote_ready = false`
+`promote_ready = false`

@@ -1,0 +1,32 @@
+{
+  "Bf1": {
+    "matrix": [[0,1,2,0],[1,0,0,2],[0,0,0,1],[0,0,1,0]],
+    "Sp4": true,
+    "coupling": 4.0,
+    "source": "LN M2 lift both Prym sheets → H1+"
+  },
+  "Bf2_second_independent": {
+    "name": "TH · Bf1 · TH^{-1}",
+    "matrix": [[-4,1,2,0],[1,-2,0,2],[-8,1,4,1],[-1,-2,1,2]],
+    "Sp4": true,
+    "coupling": 6.0,
+    "independent_of_Bf1": true,
+    "source": "conjugate of certified Bf1 by exact horizontal multi-twist (edge-lattice automorphism)"
+  },
+  "pool_A_Bf1_only_tight": {
+    "n_pool": 86,
+    "ratio": {"mean": 1.6341, "se": 0.00196, "ci95": [1.6303, 1.6380], "n": 20},
+    "lambda1": {"mean": 0.9838, "ci95": [0.9775, 0.9901]},
+    "lambda2": {"mean": 0.6021, "ci95": [0.5954, 0.6087]},
+    "scaled_to_6_7": [0.5317, 0.3254]
+  },
+  "pool_B_Bf1_Bf2_tight": {
+    "n_pool": 272,
+    "ratio": {"mean": 1.5662, "se": 0.00145, "ci95": [1.5633, 1.5690], "n": 20},
+    "scaled_to_6_7": [0.5231, 0.3340]
+  },
+  "error_model": "20 seeds × 60k steps; batch-means within-run SE; multi-seed between SE; CI95 = mean ± 1.96*max(between, median-within)",
+  "target_4_7_2_7": [0.5714, 0.2857],
+  "promote_ready": false,
+  "note": "Earlier ~2.05 was a hyp-biased subsample. Full certified pool under tight error sits at ratio ≈1.63 (single Bf) / 1.57 (dual Bf). Still discrete words, not continuous measure."
+}
