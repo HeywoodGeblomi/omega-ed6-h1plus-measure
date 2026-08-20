@@ -1,0 +1,7 @@
+{
+  "method": "continuous Teichmüller flow on X(2,0) period coords + geometric monodromy at collisions",
+  "ratio": {"mean": 1.6418, "enclosure_95": [1.3665, 1.9172], "width": 0.5507, "excludes_2_00": true},
+  "scaled_to_6_7": [0.5089, 0.3482],
+  "promote_ready": false,
+  "note": "Few renorms per trajectory → wide CI. Mean still away from 2.00."
+}

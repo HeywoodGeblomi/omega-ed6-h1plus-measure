@@ -1,26 +1,16 @@
 # Hunt log
 
-## CERTIFIED ENCLOSURE (width ≤ 0.01 decision)
+## Continuous Masur–Veech attempts
 
-**Generating set (Sp(4) verified):**
-- TH, TV — exact cylinder multi-twists of X(2,0)
-- Bf1 — LN M2 butterfly lift (both Prym sheets → H1+)
-- Bf2 = TH·Bf1·TH⁻¹ — independent conjugate
-- all inverses (8 matrices)
+| method | ratio | enclosure | scaled to 6/7 |
+|--------|-------|-----------|---------------|
+| discrete certified gens | 1.577 | [1.574, 1.580] width 0.006 | 0.525/0.333 |
+| continuous suspension | 1.656 | [1.648, 1.664] width 0.016 | 0.534/0.323 |
+| continuous Teich flow | 1.642 | [1.367, 1.917] width 0.55 | 0.509/0.348 |
+| target | 2.000 | — | 0.571/0.286 |
 
-**Scope:** semigroup of the above on H1+. Not claimed = full Veech group.
+All current continuous models **exclude** ratio 2.00 at the mean. Teich-flow CI still wide (few collisions).
 
-**Error control:** 60 seeds × 50k steps; multi-seed SE; mpmath residual audit (<1e-30); float64 pad 1e-5.
+Blam demand: true polygonal Gauss–Manin / Rauzy on developing-map periods remains the open gate.
 
-| quantity | value |
-|----------|-------|
-| ratio mean | 1.577 |
-| **enclosure 95%** | **[1.574, 1.580]** |
-| **width** | **0.00623 ≤ 0.01** |
-| contains 2.00? | **NO** |
-| excludes 2.00? | **YES** |
-| scaled to 6/7 | 0.525 / 0.333 |
-
-**Decision under this generating set: ratio is not 2.00.**
-
-`promote_ready = false` (full Masur–Veech measure of the surface still open; generator set may be incomplete relative to full Veech group).
+`promote_ready = false`

@@ -1,0 +1,6 @@
+{
+  "method": "continuous-time suspension over certified geometric generators (holding time = hyperbolic length)",
+  "ratio": {"mean": 1.6563, "enclosure_95": [1.6484, 1.6642], "width": 0.0159, "excludes_2_00": true},
+  "scaled_to_6_7": [0.5344, 0.3227],
+  "promote_ready": false
+}
