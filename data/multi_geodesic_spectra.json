@@ -1,0 +1,17 @@
+{
+  "description": "Survey of closed geodesics from Prym-invariant multi-twists on X(1,1)",
+  "hyperbolic_A": 8095,
+  "hyperbolic_M_plus": 5504,
+  "two_positive_exponents": 850,
+  "exact_ratio_21": 20,
+  "band_1_9_to_2_1": 35,
+  "most_common": "near 1:1 (isotropic)",
+  "sample_exact_21": [
+    {"rho_A": 52.0, "lambda1": 0.667, "lambda2": 0.333, "sum": 1.0},
+    {"rho_A": 44.0, "lambda1": 0.696, "lambda2": 0.348, "sum": 1.044},
+    {"rho_A": 148.0, "lambda1": 0.527, "lambda2": 0.264, "sum": 0.791}
+  ],
+  "takeaway": "ratio 2:1 is recurrent; absolute sums vary; measure average not forced by periodic orbits alone",
+  "promote_ready": false,
+  "source": "prym-omega-ed6-h1plus"
+}

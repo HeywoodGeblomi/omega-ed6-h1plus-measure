@@ -1,0 +1,15 @@
+{
+  "phase_deliverable": "Recurrent exact 2:1 KZ ratio on closed Teichmuller geodesics from Prym-invariant affine multi-twists on X(1,1) prototype in Omega E_5(6)",
+  "n_exact_ratio_2_geodesics": 20,
+  "n_matrices_21": 46,
+  "random_walk": "isotropic ~ 0.43/0.43",
+  "continuous_integrator": "frozen",
+  "candidate_4_7_2_7": "consistent with periodic ratio + literature rough; NOT claimed as measure average",
+  "literature": {
+    "sum_6_7": "EKZ",
+    "H_minus_pm_1_7": "Moeller / EKZ",
+    "individuals": "unknown (Eskin-Matheus arXiv:1210.2157)"
+  },
+  "promote_ready": false,
+  "source": "prym-omega-ed6-h1plus"
+}
