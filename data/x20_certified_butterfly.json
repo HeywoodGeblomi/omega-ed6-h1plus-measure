@@ -1,0 +1,25 @@
+{
+  "method": "X(2,0) edge-labeled developing map: TH, TV multi-twists + butterfly Bf (Lanneau–Nguyen M2 lifted to both Prym sheets, projected to H1+)",
+  "Bf": [[0,1,2,0],[1,0,0,2],[0,0,0,1],[0,0,1,0]],
+  "Bf_Sp4": true,
+  "Bf_coupling": 4.0,
+  "Bf_rho": 1.0,
+  "Bf_source": "arXiv:1802.04879 M2 basis-change, equal action on both Prym sheets, H1+ difference projection",
+  "best_hyperbolic": {
+    "word": "HBHB",
+    "rho": 25.377,
+    "coupling": 42.0,
+    "matrix": [[17,8,8,4],[10,5,4,4],[3,2,1,2],[8,3,4,1]]
+  },
+  "n_hyp_coupled": 520,
+  "spectrum": {
+    "lambda1": {"mean": 1.6348, "se": 0.00202, "ci": [1.6309, 1.6388], "n": 12},
+    "lambda2": {"mean": 0.7977, "se": 0.00162, "ci": [0.7945, 0.8009], "n": 12},
+    "ratio": {"mean": 2.0494, "se": 0.00431, "ci": [2.0410, 2.0579], "n": 12},
+    "scaled_to_6_7": [0.5761, 0.2811]
+  },
+  "target_4_7_2_7": [0.5714, 0.2857],
+  "distance_to_target_scaled": [0.0047, 0.0046],
+  "promote_ready": false,
+  "note": "Ratio consistent with 2:1 within ~2%. Scaled values within ~0.005 of 4/7 and 2/7. Still discrete-word average, not continuous Masur–Veech measure. Interval arithmetic not yet applied."
+}
