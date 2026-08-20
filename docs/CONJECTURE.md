@@ -1,29 +1,20 @@
-# Conjecture
+# Candidate
 
-On $\Omega E_D(6)$, the Masur–Veech averages on $H_1^+$ are
+On $\Omega E_D(6)$, the working candidate for the Masur–Veech averages on $H_1^+$ is
 
-$$
-\lambda_1^+ = \frac{11}{21}, \qquad \lambda_2^+ = \frac{1}{3}.
-$$
+$$\lambda_1^+ = \frac{4}{7}, \qquad \lambda_2^+ = \frac{2}{7}.$$
 
-- Sum: $11/21 + 7/21 = 6/7$ (EKZ).
-- Ratio: $11/7 \approx 1.5714$.
+- Sum: $6/7$ (EKZ).
+- Ratio: $2$.
+- Aligns with Eskin–Matheus rough numerics $\approx 0.58 / 0.26$.
+- Aligns with exact $2:1$ monodromy on closed multi-twist geodesics (path-local).
 
-## Evidence
+This is a conjecture. Not a theorem. `promote_ready = false`.
 
-| model | ratio |
-|-------|-------|
-| discrete certified gens | $[1.574,\,1.580]$ |
-| continuous suspension | $\approx 1.66$ |
-| full edge-lattice GM | $\approx 1.54$ |
+## Thin-sampler observation (not the candidate)
 
-Tightest enclosure sits on $11/7$. Scaled $\approx 0.525/0.333$.
+Walks on a small certified set of X(2,0) shears and butterfly lifts give ratio $\approx 1.54$--$1.66$ (tightest discrete enclosure $[1.574,\,1.580]$). That is consistent with $11/21 + 1/3$, but those generators are incomplete. Incomplete Veech sets collapse toward isotropy. Do not promote that rational.
 
-## Non-claims
+## Status of the average
 
-- Not a theorem.
-- Not $4/7+2/7$.
-- Not the rough $0.58/0.26$.
-- Path-local $2:1$ orbits exist; they are not the measure average.
-
-`promote_ready = false`
+The global Masur–Veech / EKZ measure-average remains open.
