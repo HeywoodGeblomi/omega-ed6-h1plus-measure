@@ -1,0 +1,22 @@
+{
+  "name": "X(2,0)",
+  "D": 8,
+  "parameters": {"w": 2, "e": 0, "h": 1, "t": 0},
+  "discriminant_check": "e^2 + 4*w*h = 0 + 8 = 8",
+  "field": "Q(sqrt(2))",
+  "literature": {
+    "X_prototype": "Lanneau–Nguyen / arXiv:2210.13503 Fig 4.6",
+    "D5_special": "ΩE5(6) = SL(2,R)·B(3,5) (Bouw–Möller), not a generic X(w,e)",
+    "connectedness": "ΩED(6) connected for D ≠ 4,9 (Lanneau–Nguyen arXiv:1802.04879)"
+  },
+  "cylinders_horizontal": [
+    {"id": "H_long", "width": 2.0, "height": 1.0},
+    {"id": "H_short", "width": 1.0, "height": 1.41421356237}
+  ],
+  "cylinders_vertical": [
+    {"id": "V_long", "width": 1.0, "height": 2.0},
+    {"id": "V_short", "width": 1.41421356237, "height": 1.0}
+  ],
+  "H1_plus_model": "4D frame from long/short cylinder cores + duals (Prym-symmetric)",
+  "promote_ready": false
+}

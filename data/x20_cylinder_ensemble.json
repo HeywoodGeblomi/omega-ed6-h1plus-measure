@@ -1,0 +1,11 @@
+{
+  "prototype": "X(2,0) D=8",
+  "method": "cylinder-modulus shears on model H1+ + short products; QR + batch-means SE",
+  "lambda1": {"mean": 0.4559, "se": 0.00094, "ci95": [0.4541, 0.4578]},
+  "lambda2": {"mean": 0.4559, "se": 0.00094, "ci95": [0.4541, 0.4578]},
+  "ratio": {"mean": 1.0, "se": 0.0, "ci95": [1.0, 1.0]},
+  "scaled_to_6_7": [0.4286, 0.4286],
+  "interpretation": "Pure cylinder moduli on the decoupled H1+ model stay isotropic. Matches earlier D=8 parabolic-only collapse. Hyperbolic coupling (silver-ratio units / developing-map monodromy) still required for anisotropy.",
+  "error_model": "non-overlapping batch means (batch=600) + multi-seed CI95",
+  "promote_ready": false
+}
