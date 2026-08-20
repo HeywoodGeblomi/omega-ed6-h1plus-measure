@@ -1,0 +1,37 @@
+{
+  "geometry": {
+    "prototype": "X(2,0)",
+    "D": 8,
+    "lambda": 1.41421356237,
+    "square_side": 0.707106781187,
+    "mu_H_long": 2.0,
+    "mu_H_short": 1.0,
+    "source": "arXiv:2210.13503 Fig 4.6"
+  },
+  "exact_matrices": {
+    "TH": [[1,0,0,0],[0,1,0,0],[2,0,1,0],[0,1,0,1]],
+    "TV": [[1,0,0.5,0],[0,1,0,1],[0,0,1,0],[0,0,0,1]],
+    "TH_Sp4": true,
+    "TV_Sp4": true,
+    "derivation": "Global horizontal/vertical multi-twists by cylinder moduli on H1+ difference basis (γL1-γL2, γS1-γS2, δL1-δL2, δS1-δS2). These ARE the affine maps coming from the cylinder decomposition of the polygon."
+  },
+  "spectrum_exact_multitwists_only": {
+    "ratio": 1.000006,
+    "ci": [1.000005, 1.000008],
+    "scaled_to_6_7": [0.42857, 0.42857],
+    "n_seeds": 20,
+    "steps": 80000
+  },
+  "spectrum_with_silver_unit_blocks": {
+    "ratio": 1.1637,
+    "ci": [1.1622, 1.1652],
+    "scaled_to_6_7": [0.4610, 0.3961],
+    "note": "Unit blocks are field-compatible candidates, not yet proved to be φ_* for an affine diffeomorphism of the polygon"
+  },
+  "bracket": {
+    "pure_multitwist": 1.00,
+    "shared_edge_hack": 2.80,
+    "target_2_1": 2.00
+  },
+  "promote_ready": false
+}
