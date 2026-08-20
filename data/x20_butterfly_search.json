@@ -1,0 +1,12 @@
+{
+  "exact_TH": [[1,0,0,0],[0,1,0,0],[2,0,1,0],[0,1,0,1]],
+  "exact_TV": [[1,0,0.5,0],[0,1,0,1],[0,0,1,0],[0,0,0,1]],
+  "coupled_hyperbolic_words_in_TH_TV": 0,
+  "structural": "TH and TV are block-diagonal w.r.t. long/short splitting; <TH,TV> never mixes long↔short. Off-diagonal coupling requires butterfly/Veech elements outside <TH,TV>.",
+  "literature_butterfly_M2": {
+    "source": "arXiv:1802.04879 basis-change factor",
+    "raw": [[0,2,1,0],[0,0,0,1],[1,0,0,2],[0,1,0,0]],
+    "after_Sp4_projection": "rho≈1 (near-elliptic), spectrum with TH,TV remains ratio ≈1.00"
+  },
+  "promote_ready": false
+}

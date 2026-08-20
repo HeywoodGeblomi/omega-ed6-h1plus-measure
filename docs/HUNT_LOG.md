@@ -1,25 +1,31 @@
 # Hunt log
 
-## Exact developing-map matrices (X(2,0))
-
-From cylinder decomposition of the literature polygon (arXiv:2210.13503 Fig 4.6):
+## Exact generators locked
 
 ```
-TH = [[1,0,0,0],[0,1,0,0],[2,0,1,0],[0,1,0,1]]   # horizontal multi-twist, Sp(4)
-TV = [[1,0,0.5,0],[0,1,0,1],[0,0,1,0],[0,0,0,1]] # vertical multi-twist, Sp(4)
+TH = [[1,0,0,0],[0,1,0,0],[2,0,1,0],[0,1,0,1]]
+TV = [[1,0,0.5,0],[0,1,0,1],[0,0,1,0],[0,0,0,1]]
 ```
+Both Sp(4). Ratio of <TH,TV> products: **1.000** (isotropic).
 
-These are the induced actions on the H1+ difference basis of the global affine multi-twists (derivative parabolic in SL(2,R)).
+## Structural obstruction
 
-## Spectra
+TH and TV preserve the long/short splitting of H1+. Every word in <TH,TV> has **zero** long↔short coupling. Anisotropy is impossible inside this subgroup.
 
-| generators | ratio | scaled to 6/7 |
-|------------|-------|---------------|
-| **exact TH, TV only** | **1.000** | 0.429/0.429 |
-| + silver-unit Sp(4) blocks | 1.164 | 0.461/0.396 |
-| shared-edge hack (prior) | 2.80 | 0.63/0.23 |
-| target 2:1 | 2.00 | 0.571/0.286 |
+## Butterfly attempt
 
-**Result:** The true affine multi-twists of X(2,0) produce an isotropic H1+ spectrum. Extra hyperbolic elements (butterfly / Veech) are required for anisotropy; those matrices are not yet derived from a complete edge-labeled developing map.
+Literature basis-change factor M2 (arXiv:1802.04879) has coupling, but after projection to Sp(4) becomes near-elliptic; joint spectrum with TH,TV stays ratio ≈1.00.
+
+## Status
+
+| object | ratio |
+|--------|-------|
+| exact TH,TV | 1.000 |
+| + silver units (not proved φ_*) | 1.164 |
+| + literature M2 projected | ~1.00 |
+| shared-edge hack | 2.80 |
+| target | 2.00 |
+
+Next: full edge-labeled developing map that produces a **certified** hyperbolic Veech element with off-diagonal H1+ action.
 
 `promote_ready = false`
