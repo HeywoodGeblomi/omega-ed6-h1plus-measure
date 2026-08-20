@@ -1,0 +1,6 @@
+{
+  "method": "Rauzy–Veech on 4-edge X(2,0) lattice + zippered heights",
+  "result": "parabolic (1 positive exponent) — expected for pure length cocycle",
+  "note": "KZ requires homology action, not length Rauzy alone",
+  "promote_ready": false
+}

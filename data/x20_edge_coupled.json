@@ -1,0 +1,9 @@
+{
+  "method": "edge-shared coupled multi-twists on X(2,0) H1+ (developing-map cross terms from shared square edges)",
+  "lambda1": {"mean": 1.0417, "se": 0.00107, "ci": [1.0396, 1.0438]},
+  "lambda2": {"mean": 0.3727, "se": 0.00058, "ci": [0.3715, 0.3738]},
+  "ratio": {"mean": 2.795, "se": 0.0054, "ci": [2.785, 2.806]},
+  "scaled_to_6_7": [0.631, 0.226],
+  "interpretation": "Shared-edge cross coupling overshoots ratio 2.0. Pure multi-twists undershoot (~1.5). True developing-map coupling strength still not certified.",
+  "promote_ready": false
+}
