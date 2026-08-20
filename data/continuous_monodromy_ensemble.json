@@ -1,0 +1,50 @@
+{
+  "method": "continuous-time Poisson switching on geometric Sp(4) generators + QR Oseledets",
+  "T_max": 400.0,
+  "n_seeds_valid": 24,
+  "lambda1": {
+    "mean": 0.6467740082994252,
+    "std": 0.07105525049871904,
+    "se": 0.0145040922722918,
+    "ci95": [0.6183459874457333, 0.6752020291531171],
+    "min": 0.5228451358716102,
+    "max": 0.814266499029666,
+    "n": 24
+  },
+  "lambda2": {
+    "mean": 0.3998240161254818,
+    "std": 0.04510683247443783,
+    "se": 0.009207393622964553,
+    "ci95": [0.3817775246244713, 0.4178705076264923],
+    "min": 0.33416661331065517,
+    "max": 0.4781886843587383,
+    "n": 24
+  },
+  "ratio": {
+    "mean": 1.6228037092960037,
+    "std": 0.12414752476842592,
+    "se": 0.02534150737601499,
+    "ci95": [1.5731343548390144, 1.672473063752993],
+    "min": 1.447021500719023,
+    "max": 1.9326827959966397,
+    "n": 24
+  },
+  "sum_pos": {
+    "mean": 1.0465980244249071,
+    "std": 0.10969284652535757,
+    "se": 0.022390958535046065,
+    "ci95": [1.002711745696217, 1.0904843031535973],
+    "n": 24
+  },
+  "scaled_to_6_7": [0.5296949817042996, 0.32744787543855747],
+  "periodic_contrast": {
+    "lambda1": 0.6666666666666666,
+    "lambda2": 0.3333333333333333,
+    "ratio": 2.0,
+    "scaled_to_6_7": [0.5714285714285714, 0.2857142857142857],
+    "scope": "exact closed geodesic A"
+  },
+  "error_model": "multi-seed mean \u00b1 SE; 95% CI (normal approx). Not interval arithmetic.",
+  "scope": "continuous-time geometric monodromy on H1+ generators; NOT certified polygonal Gauss-Manin",
+  "promote_ready": false
+}
