@@ -1,0 +1,9 @@
+{
+  "method": "hyperbolic-biased walk on X(2,0) multi-twist pool",
+  "lambda1": {"mean": 1.3739, "se": 0.00114, "ci": [1.3717, 1.3761]},
+  "lambda2": {"mean": 0.8780, "se": 0.00113, "ci": [0.8758, 0.8802]},
+  "ratio": {"mean": 1.5648, "se": 0.00235, "ci": [1.5602, 1.5694]},
+  "scaled_to_6_7": [0.5229, 0.3342],
+  "trend": "1.00 (equal) → 1.39 (unequal) → 1.50 (deep) → 1.56 (hyp-bias)",
+  "promote_ready": false
+}
