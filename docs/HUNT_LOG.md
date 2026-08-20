@@ -1,20 +1,26 @@
 # Hunt log
 
-## Two certified butterflies
+## CERTIFIED ENCLOSURE (width ≤ 0.01 decision)
 
-| matrix | coupling | Sp(4) | source |
-|--------|----------|-------|--------|
-| **Bf1** | 4.0 | yes | LN M2 lift both Prym sheets → H1+ |
-| **Bf2** = TH·Bf1·TH^{-1} | 6.0 | yes | conjugate by exact multi-twist (independent) |
+**Generating set (Sp(4) verified):**
+- TH, TV — exact cylinder multi-twists of X(2,0)
+- Bf1 — LN M2 butterfly lift (both Prym sheets → H1+)
+- Bf2 = TH·Bf1·TH⁻¹ — independent conjugate
+- all inverses (8 matrices)
 
-## Tight re-measure (20×60k, batch-means + multi-seed CI95)
+**Scope:** semigroup of the above on H1+. Not claimed = full Veech group.
 
-| pool | ratio | CI95 | scaled to 6/7 |
-|------|-------|------|---------------|
-| Bf1 + TH/TV hyp words | **1.634** | [1.630, 1.638] | 0.532 / 0.325 |
-| Bf1 + Bf2 + TH/TV | **1.566** | [1.563, 1.569] | 0.523 / 0.334 |
-| target 2:1 | 2.000 | — | 0.571 / 0.286 |
+**Error control:** 60 seeds × 50k steps; multi-seed SE; mpmath residual audit (<1e-30); float64 pad 1e-5.
 
-Earlier ~2.05 was hyp-biased subsample; full pool under tight error is lower.
+| quantity | value |
+|----------|-------|
+| ratio mean | 1.577 |
+| **enclosure 95%** | **[1.574, 1.580]** |
+| **width** | **0.00623 ≤ 0.01** |
+| contains 2.00? | **NO** |
+| excludes 2.00? | **YES** |
+| scaled to 6/7 | 0.525 / 0.333 |
 
-`promote_ready = false`
+**Decision under this generating set: ratio is not 2.00.**
+
+`promote_ready = false` (full Masur–Veech measure of the surface still open; generator set may be incomplete relative to full Veech group).

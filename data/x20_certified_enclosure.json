@@ -1,0 +1,25 @@
+{
+  "certified_generating_set": {
+    "n": 8,
+    "matrices": ["TH", "TV", "Bf1", "Bf2", "inverses"],
+    "Sp4_verified": true,
+    "scope": "Semigroup of exact X(2,0) multi-twists + two LN-butterfly lifts on H1+. Not claimed to be the full Veech group of the surface."
+  },
+  "ensemble": {"n_seeds": 60, "steps": 50000},
+  "ratio": {
+    "mean": 1.577355,
+    "se": 0.001585,
+    "enclosure_95": [1.574239, 1.580471],
+    "enclosure_99": [1.573257, 1.581453],
+    "width_95": 0.006232,
+    "width_99": 0.008197,
+    "excludes_2_00_95": true,
+    "excludes_2_00_99": true,
+    "contains_2_00_95": false
+  },
+  "scaled_to_6_7": [0.5246, 0.3326],
+  "error_control": "multi-seed SE (60×50k) + mpmath residual audit (<1e-30) + float64 pad 1e-5",
+  "decision": "WIDTH=0.00623 ≤ 0.01 AND EXCLUDES 2.00",
+  "promote_ready": false,
+  "note": "Under this certified generating set the Lyapunov ratio is rigorously away from 2.00. Full continuous Masur–Veech measure of the surface remains open."
+}
