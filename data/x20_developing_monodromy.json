@@ -1,0 +1,20 @@
+{
+  "geometry": {
+    "prototype": "X(2,0)",
+    "D": 8,
+    "lambda": 1.41421356237,
+    "squares_side": 0.707106781187,
+    "rectangles": {"width": 1.0, "height": 0.5},
+    "source": "arXiv:2210.13503 Fig 4.6"
+  },
+  "n_gens": 24,
+  "n_hyp": 12,
+  "max_coupling_norm": 16.658,
+  "lambda1": {"mean": 0.9991, "se": 0.00140, "ci95": [0.9964, 1.0019], "n": 16},
+  "lambda2": {"mean": 0.7179, "se": 0.00117, "ci95": [0.7156, 0.7202], "n": 16},
+  "ratio": {"mean": 1.3918, "se": 0.00193, "ci95": [1.3881, 1.3956], "n": 16},
+  "scaled_to_6_7": [0.4988, 0.3584],
+  "error_model": "batch-means SE + multi-seed CI95",
+  "scope": "X(2,0) multi-twists on cylinder-core H1+ from literature polygon; unequal long/short moduli supply off-diagonal coupling",
+  "promote_ready": false
+}
