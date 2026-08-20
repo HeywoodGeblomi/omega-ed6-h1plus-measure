@@ -1,0 +1,25 @@
+{
+  "method": "FULL polygonal developing-map edge lattice X(2,0) + continuous Gauss–Manin on edge periods + H1+ monodromy",
+  "edge_lattice": {
+    "n_absolute_edges": 8,
+    "horizontal_pairs": 4,
+    "vertical_pairs": 4,
+    "H1_dim": 8,
+    "H1plus_dim": 4,
+    "source": "arXiv:2210.13503 Fig 4.6"
+  },
+  "n_seeds": 20,
+  "collisions_per_seed": "~2300–2500",
+  "ratio": {
+    "mean": 1.5355,
+    "se": 0.0162,
+    "enclosure_95": [1.5036, 1.5674],
+    "width": 0.0638,
+    "excludes_2_00": true,
+    "contains_2_00": false
+  },
+  "scaled_to_6_7": [0.5188, 0.3384],
+  "target": 2.0,
+  "promote_ready": false,
+  "note": "Complete edge lattice + continuous g_t + geometric monodromy at collisions. Ratio excludes 2.00. Width still >0.01; not yet interval-arithmetic certified."
+}
