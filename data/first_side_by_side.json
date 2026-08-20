@@ -1,0 +1,19 @@
+{
+  "sampler": "discrete multi-twist random walk on geometric generators (NOT continuous Masur-Veech)",
+  "steps": 20000,
+  "values": [0.9009167176379422, -0.9009167176379418, 0.46332301761382005, -0.4633230176138199],
+  "err_crude": [0.00637044320326115, 0.0063704432032611474, 0.0032761884763454637, 0.0032761884763454624],
+  "lambda1_plus": 0.9009167176379422,
+  "lambda2_plus": 0.46332301761382005,
+  "ratio": 1.9444678623518263,
+  "sum_pos": 1.3642397352517623,
+  "scaled_to_6_7": [0.5660400510629041, 0.29110280607995287],
+  "periodic_contrast": {
+    "values": [0.6667, 0.3333, -0.3333, -0.6667],
+    "ratio": 2.0,
+    "scaled_to_6_7": [0.5714285714285714, 0.2857142857142857],
+    "scope": "path-local exact orbit A"
+  },
+  "generators": "cylinder shears H/V (k=\u00b11,\u00b12) + example M+ from 2:1 family + inv(M+)",
+  "claim": "side-by-side contrast only; discrete walk is not the invariant measure; promote_ready=false"
+}
